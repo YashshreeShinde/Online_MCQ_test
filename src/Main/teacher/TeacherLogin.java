@@ -91,17 +91,17 @@ public class TeacherLogin extends JFrame implements ActionListener{
         b2.setFont(new Font("Tahoma", Font.PLAIN, 18));
 	add(b2);
         
-        
-	b3 = new JButton("FORGET PASSWORD");
-	b3.addActionListener(this);
-
-	
-        b3.setForeground(Color.white);
-        b3.setFont(new Font("Tahoma", Font.PLAIN, 18));
-	b3.setBackground(Color.DARK_GRAY);
-	b3.setBounds(420, 410, 250, 40);
-        b3.setBorder(null);
-	add(b3);
+//        
+//	b3 = new JButton("FORGET PASSWORD");
+//	b3.addActionListener(this);
+//
+//	
+//        b3.setForeground(Color.white);
+//        b3.setFont(new Font("Tahoma", Font.PLAIN, 18));
+//	b3.setBackground(Color.DARK_GRAY);
+//	b3.setBounds(420, 410, 250, 40);
+//        b3.setBorder(null);
+//	add(b3);
 
 	
         
@@ -156,11 +156,12 @@ public class TeacherLogin extends JFrame implements ActionListener{
             {
                 setVisible(false);
                 new TeacherSignUp().setVisible(true);
-            }else{
-                
-                setVisible(false);
-                new Main.ForgotPassword().setVisible(true);
             }
+//                else{
+//                
+//                setVisible(false);
+//                new Main.ForgotPassword().setVisible(true);
+//            }
             
         }
 
